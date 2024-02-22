@@ -4,6 +4,7 @@ metaTitle: Bubblegum - Overview
 description: Provides a high-level overview of compressed NFTs.
 ---
 
+
 Bubblegum is the Metaplex Protocol program for creating and interacting with compressed NFTs (cNFTs) on Solana. Compressed NFTs make it possible to scale the creation of NFTs to new orders of magnitude by rethinking the way we store data on-chain. {% .lead %}
 
 {% quick-links %}
@@ -29,6 +30,8 @@ So far, though, these types of products have been held back by the cost of rent 
 | 1,000,000,000   | 7.13         | 500              | 507.13     | 0.0000005     |
 
 These compressed NFTs can be transferred, delegated, and even decompressed into regular NFTs for interoperability with existing smart contracts.
+
+{% topledger-embed title="Compressed NFT mints" caption="Weekly cNFT mints" client="metaplex" queryId="7520" visualizationId="22129" apiKey="Hvdru0LCbFN24j9W4K9RRE9t1Y5Invg76XnkkKsj" /%}
 
 ## Merkle Trees, leaves and proofs
 
@@ -130,6 +133,8 @@ Even though NFT data does not live inside accounts, it is still possible to exec
 - [Delegate a cNFT](/bubblegum/delegate-cnfts).
 - [Verify and unverify a cNFT collection](/bubblegum/verify-collections).
 - [Verify and unverify the creators of a cNFT](/bubblegum/verify-creators).
+
+{% topledger-embed title="Compressed NFT transfers" caption="Weekly cNFT transfers" client="metaplex" queryId="2246" visualizationId="6588" apiKey="jWBeYllDdmiWQdQGq9wtjF7m45ZZwkPsgsxOdfMB" /%}
 
 ## Next steps
 

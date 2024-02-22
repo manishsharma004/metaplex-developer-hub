@@ -36,6 +36,8 @@ Here are some of the features it offers.
 - Reveal your NFTs after the launch whilst allowing your users to verify that information.
 - And so much more!
 
+{% topledger-embed title="Candy Machine V3" caption="Daily mints last 30 days" client="metaplex" queryId="7522" visualizationId="22134" apiKey="alo031fd80YevkQqSbPRR2QLns6XPanm6oWMquf1" /%}
+
 Interested? Let’s give you a little tour of how Candy Machines work!
 
 ## The Lifecycle of a Candy Machine

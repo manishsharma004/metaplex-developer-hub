@@ -13,6 +13,7 @@ import {
 } from '@/components/diagrams'
 import {Seperator} from '@/components/Seperator'
 import { MarkdocGrid as ProductGrid } from '@/components/products/Grid'
+import { TopLedgerEmbed } from '@/components/TopLedgerEmbed'
 
 const tags = {
   callout: {
@@ -135,6 +136,20 @@ const tags = {
       h: { type: String },
     },
     selfClosing: true,
+  },
+  'topledger-embed': {
+    render: TopLedgerEmbed,
+    attributes: {
+      title: { type: String },
+      caption: { type: String },
+      client: { type: String },
+      queryId: { type: String },
+      visualizationId: { type: String },
+      apiKey: { type: String },
+      height: { type: String },
+      width: { type: String },
+      params: { type: Object },
+    }
   }
 }
 

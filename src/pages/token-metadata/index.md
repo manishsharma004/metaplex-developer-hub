@@ -14,6 +14,10 @@ The Token Metadata program is a fundamental program when dealing NFTs and Fungib
 
 {% /quick-links %}
 
+
+
+{% topledger-embed title="NFT mints" caption="Monthly TM NFT mints" client="metaplex" queryId="2363" visualizationId="22130" apiKey="A70wQP2ArNcnqgKPjCEHLrdwmPyYwNuCQIjLy5IO" /%}
+
 ## Introduction
 
 The Token Metadata program is one of the most important programs when dealing with NFTs on the Solana blockchain. Its main goal is to **attach additional data to [Fungible](https://en.wikipedia.org/wiki/Fungibility) or Non-Fungible [Tokens](https://spl.solana.com/token)** on Solana.
@@ -426,6 +430,8 @@ You can [read more about these standards here](/token-metadata/token-standard).
 {% edge from="metadata-3-pda" to="metadata-3" path="straight" /%}
 {% /diagram %}
 
+{% topledger-embed title="NFT mints by token standard" caption="Total NFT mints by token standard last 6 months" client="metaplex" queryId="7521" visualizationId="22132" apiKey="0OnCOinaMe9F5d1G3wxxvkoUl5y9pvjXDUZyBfTT" /%}
+
 ## Programmable NFTs {% #pnfts %}
 
 Because the Token Metadata program is building on top of the Solana Token program, anyone can transfer tokens (fungible or not) without going through the Token Metadata program. Whilst this is great for program composibility, it also means that the Token Metadata program cannot enforce any rules on the tokens it is attached to.
@@ -475,6 +481,8 @@ You can [read more about Programmable NFTs here](/token-metadata/pnfts).
 {% edge from="metadata-pda" to="metadata" path="straight" /%}
 {% edge from="programmable-configs" to="ruleset" arrow="none" dashed=true /%}
 {% /diagram %}
+
+{% topledger-embed title="Programmable NFTs" caption="Weekly programmable NFT created" client="metaplex" queryId="1851" visualizationId="5342" apiKey="3Tdj34Q4lmqSqBCaJlXfrzlNVBVvlYB9Fs09cpEB" /%}
 
 ## And a lot more
 
