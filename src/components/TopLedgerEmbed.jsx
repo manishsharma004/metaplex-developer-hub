@@ -7,17 +7,14 @@ export const TopLedgerEmbed = ({
   queryId,
   visualizationId,
   apiKey,
-  height,
-  width,
   params = {},
 }) => {
-
   const embedUrl = new URL(`https://analytics.topledger.xyz/${client}/embed/query/${queryId}/visualization/${visualizationId}`)
   embedUrl.search = new URLSearchParams({ api_key: apiKey, hide_header: 'true', hide_timestamp: 'true', iframe: 'true', ...params }).toString()
 
   return (
     <figure
-        className='bg-[#f5f7fd] rounded-xl my-4 p-2 px-4 m-0 w-full flex items-center justify-center flex-col'
+        className='bg-[#f5f7fd] rounded-xl my-4 py-2 px-2 m-0 w-full flex items-center justify-center flex-col'
     >
       {title && <p className='flex justify-center text-black text-lg leading-relaxed font-normal'>{title}</p>}
       <iframe
